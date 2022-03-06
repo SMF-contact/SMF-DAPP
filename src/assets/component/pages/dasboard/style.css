@@ -1,0 +1,80 @@
+.dashboard {
+    width: 100%;
+    min-width: max-content;
+    height: 100vh;
+    position: relative;
+    background-size: cover !important; 
+    padding-top: 100px;
+}
+.dlist {
+    font-size: 15px;
+    padding-left: 10px;
+}
+.dlist li {
+    line-height: 24px;
+}
+.dlist li span:first-child {
+    width: 155px;
+    display: inline-block;
+}
+.dlist li span:last-child{
+    color: #fff;
+} 
+.smf-data h5 {
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.smf-data h5 img {
+    margin-right: 5px;
+}
+
+.smf-data h5 small {
+    margin-left: 10px;
+}
+.help_center ul li {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #5f56bb;
+    margin-right: 10px;
+    background: rgba(45, 38, 138, 0.5);
+    box-shadow: inset 0px 0px 7px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+button.goback {
+    border: none;
+    padding: 0;
+    margin-bottom: 25px;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(45, 38, 138, 0.3);
+    box-shadow: inset 0px 0px 7px rgb(255 255 255 / 25%);
+    transition: .3s;
+} 
+
+button.goback svg path {
+    fill: #DDDDFB;
+    transition: .3s;
+}
+
+button.goback:hover svg path {
+    fill: #fff;
+}
+
+button.goback:hover {
+    background: #3c3679e8;
+}
+
+
+
+
+
+
+
+
+

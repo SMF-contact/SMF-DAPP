@@ -1,0 +1,43 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-wrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-wrp ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(45, 38, 138, 0.3);
+    box-shadow: inset 0px -2px 7px rgb(255 255 255 / 25%);
+    border-radius: 0px 0px 10px 10px;
+    padding: 8px 40px;
+}
+.header-wrp a.header-logo {
+    width: 300px;
+}
+.header-wrp .connectWallet {
+    width: 300px;
+    text-align: right;
+    background: rgba(45, 38, 138, 0.3);
+    box-shadow: inset 1px -2px 7px rgb(255 255 255 / 25%);
+    border-radius: 0px 0px 0px 10px;
+    padding: 8px 15px;
+}
+.header-wrp ul li {
+    margin-right: 10px;
+}
+.header-wrp ul li:last-child {
+    margin-right: 0px;
+}
+.header > .container-fluid {
+    padding-right: 0;
+}
+ 
