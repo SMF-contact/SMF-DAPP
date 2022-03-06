@@ -69,7 +69,21 @@ button.goback:hover svg path {
 button.goback:hover {
     background: #3c3679e8;
 }
+.contentBlk .btns {
+    position: absolute;
+    top: 60%;
+    right: 15px;
+    width: 95px;
+    transform: translateY(-50%);
+}
 
+.contentBlk .btns button.theme-btn {
+    width: 100%;
+}
+
+.contentBlk .btns button.theme-btn:last-child {
+    margin-top: 5px;
+}
 
 
 
