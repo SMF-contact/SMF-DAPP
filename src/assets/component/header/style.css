@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 9;
 }
 
 .header-wrp {
@@ -20,11 +20,11 @@
     border-radius: 0px 0px 10px 10px;
     padding: 8px 40px;
 }
-.header-wrp a.header-logo {
-    width: 300px;
-}
+.header-wrp a.header-logo,
 .header-wrp .connectWallet {
-    width: 300px;
+    width: 250px;
+}
+.header-wrp .connectWallet { 
     text-align: right;
     background: rgba(45, 38, 138, 0.3);
     box-shadow: inset 1px -2px 7px rgb(255 255 255 / 25%);
@@ -40,4 +40,112 @@
 .header > .container-fluid {
     padding-right: 0;
 }
- 
+.mobileMenu {
+    margin-left: -400px;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #292460;
+    padding: 20px;
+    transition: .3s;
+}
+
+.mobileMenu button.mblTgl {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    background: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+    color: red;
+    transition: .3s;
+}
+
+.mobileMenu ul li button.theme-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.mobileMenu button.mblTgl:hover {
+    background: red;
+    color: #fff;
+}
+.connectWallet button.mblTgl {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    background: none;
+    border: none;
+    transition: .3s;
+    border-top: 2px solid white;
+}
+
+.connectWallet button.mblTgl:after,.connectWallet button.mblTgl:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    top: 40%;
+    left: 0;
+    transition: .3s;
+}
+
+.connectWallet button.mblTgl:after {
+    top: auto;
+    bottom: 0;
+}
+.show_menu .mobileMenu {
+    margin-left: 0;
+}
+@media only screen and (max-width:1440px) and (min-width:1200px) {
+    .header-wrp ul { 
+        padding: 8px 20px;
+    }
+    .header-wrp ul button.theme-btn { 
+        padding: 5px 7px;
+    }
+    .header-wrp a.header-logo,
+    .header-wrp .connectWallet {
+        width: 210px;
+    }
+
+
+
+
+}
+@media only screen and (max-width:1199px) {
+    .header-wrp .connectWallet {
+        width: 70px;
+    }
+    a.header-logo {
+        padding-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

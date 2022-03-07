@@ -1,10 +1,11 @@
 .dashboard {
     width: 100%;
-    min-width: max-content;
+    min-height: 800px;
     height: 100vh;
     position: relative;
     background-size: cover !important; 
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .dlist {
     font-size: 15px;
@@ -87,6 +88,58 @@ button.goback:hover {
 
 
 
+
+@media only screen and (max-width:991px) {
+    .dashboard {
+        width: 100%;
+        min-width:auto;
+        height: auto; 
+    }
+
+} 
+
+@media only screen and (max-width:767px) {
+    .contentBlk .btns {
+        position: unset;
+        width: 90%;
+        transform: unset;
+        display: flex; 
+        margin: auto;
+        margin-top: 15px;
+    }
+    .contentBlk .btns button.theme-btn:last-child {
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .dlist {
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    .dlist li span:first-child {
+        width: 130px; 
+    }
+    .dlist li { 
+        display: flex;
+        overflow: hidden;
+    }
+    .dlist li span:first-child { 
+        min-width: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

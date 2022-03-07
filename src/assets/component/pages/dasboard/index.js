@@ -70,27 +70,27 @@ function Dashboard() {
                             </ul>
                         </div>
                     </ContentBlk>  
-                    <ContentBlk classes={"col-lg-4 mb-3"}>
+                    <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>AntiScamAI</h4>
                         <p>Maximise your Investment by Scanning any crypto project before to Invest</p>
                     </ContentBlk>  
-                    <ContentBlk classes={"col-lg-4 mb-3"}>
+                    <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>WhalesTrackerAI</h4>
                         <p>Stay updated, get AI Insight and Prediction. Copy Transactions to profit from the Pump !</p>
                     </ContentBlk> 
-                    <ContentBlk classes={"col-lg-4 mb-3"}>
+                    <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>TradingBotAI</h4>
                         <p>Set traget profit, get insurance ratio. Shill while your wealth growing.</p>
                     </ContentBlk> 
-                    <ContentBlk classes={"col-lg-4 mb-3"}>
+                    <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>SmartDex</h4>
                         <p>Swap tokens at SmartDex with AI managed and optimised slipage.</p>
                     </ContentBlk> 
-                    <ContentBlk classes={"col-lg-4 mb-3"}>
+                    <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>Liquidity</h4>
                         <p>Add liquidity to SmartDapp and Profit from every swap fees.</p>
                     </ContentBlk> 
-                    <ContentBlk classes={"col-lg-4 mb-3"}>
+                    <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>SmartStake</h4>
                         <p>Our Dual Reward system designed to let you benefit from Tax USDT reflection even with your SMF staked.</p>
                     </ContentBlk> 
