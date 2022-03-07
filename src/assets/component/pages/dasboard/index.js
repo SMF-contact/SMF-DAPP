@@ -5,6 +5,7 @@ import ContentBlk from "../../helper/contentBlk"
 import Backg from "../../../imgs/background.png"
 import { useNavigate } from "react-router-dom";
 import TheButton from "../../helper/button";
+import ChartComponent from "../../helper/chart"
 import WhitePaper from "../../../imgs/whitepaper.png";
 import Audits from "../../../imgs/audits.png";
 import Github from "../../../imgs/github.png";
@@ -82,6 +83,7 @@ function Dashboard() {
                                     <span>$97,054,126</span>
                                 </li> 
                             </ul>
+                            <ChartComponent/>
                         </div>
                     </ContentBlk>  
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
