@@ -6,6 +6,7 @@ import Backg from "../../../imgs/background.png"
 import { useNavigate } from "react-router-dom";
 import TheButton from "../../helper/button";
 import ChartComponent from "../../helper/chart"
+import DemoStock from "../../helper/chart/stock"
 import WhitePaper from "../../../imgs/whitepaper.png";
 import Audits from "../../../imgs/audits.png";
 import Github from "../../../imgs/github.png";
@@ -33,7 +34,7 @@ function Dashboard() {
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l9-8v6h15v4h-15v6z"/></svg>
                         </button>
                     </div>
-                    <ContentBlk classes={"col-lg-6 mb-3"}>
+                    <ContentBlk classes={"col-xl-6 col-lg-12 mb-3"}>
                         <h4>Wallet</h4>
                         <ul className="dlist">
                             <li>
@@ -62,7 +63,7 @@ function Dashboard() {
                             <TheButton classes={""} href={"#"} content={"Buy"}/>
                         </div>
                     </ContentBlk> 
-                    <ContentBlk classes={"col-lg-6 mb-3"}>
+                    <ContentBlk classes={"col-xl-6 col-lg-12 mb-3"}>
                         <div className="smf-data"> 
                             <div className="smf-data-left"> 
                                 <h5><img src={CircleLogo} alt="" /> SMF Data: $0 <small className="badge bg-success">1%</small></h5>
@@ -87,32 +88,45 @@ function Dashboard() {
                             </div>
                             <div className="smf-data-right">
                                 <ChartComponent/>
+                                {/* <DemoStock/> */}
+                                <div className="a_days">
+                                    <button type="button">1d</button>
+                                    <button type="button">7d</button>
+                                    <button type="button">1m</button>
+                                    <button type="button">3m</button>
+                                </div>
                             </div>
                         </div>
                     </ContentBlk>  
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>AntiScamAI</h4>
                         <p>Maximise your Investment by Scanning any crypto project before to Invest</p>
+                        <button type="button" className="gotothatPage" onClick={() => navigate("#")}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l9-8v6h15v4h-15v6z"/></svg></button>
                     </ContentBlk>  
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>WhalesTrackerAI</h4>
                         <p>Stay updated, get AI Insight and Prediction. Copy Transactions to profit from the Pump !</p>
+                        <button type="button" className="gotothatPage" onClick={() => navigate("#")}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l9-8v6h15v4h-15v6z"/></svg></button>
                     </ContentBlk> 
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>TradingBotAI</h4>
                         <p>Set traget profit, get insurance ratio. Shill while your wealth growing.</p>
+                        <button type="button" className="gotothatPage" onClick={() => navigate("#")}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l9-8v6h15v4h-15v6z"/></svg></button>
                     </ContentBlk> 
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>SmartDex</h4>
                         <p>Swap tokens at SmartDex with AI managed and optimised slipage.</p>
+                        <button type="button" className="gotothatPage" onClick={() => navigate("#")}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l9-8v6h15v4h-15v6z"/></svg></button>
                     </ContentBlk> 
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>Liquidity</h4>
                         <p>Add liquidity to SmartDapp and Profit from every swap fees.</p>
+                        <button type="button" className="gotothatPage" onClick={() => navigate("#")}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l9-8v6h15v4h-15v6z"/></svg></button>
                     </ContentBlk> 
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>
                         <h4>SmartStake</h4>
                         <p>Our Dual Reward system designed to let you benefit from Tax USDT reflection even with your SMF staked.</p>
+                        <button type="button" className="gotothatPage" onClick={() => navigate("#")}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12l9-8v6h15v4h-15v6z"/></svg></button>
                     </ContentBlk> 
                     <ContentBlk classes={"col-lg-12"}>
                         <div className="help_center"> 

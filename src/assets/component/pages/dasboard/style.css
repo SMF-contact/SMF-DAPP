@@ -105,6 +105,38 @@ button.goback:hover {
 .smf-data-right > div > label,.smf-data-right > div > select {
     display: none;
 }
+.smf-data-right {
+    width: 100%;
+}
+.a_days {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 77.84%);
+    border-radius: 10px;
+    padding: 10px 7px;
+}
+
+.a_days button {
+    display: block;
+    border: none;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 87.89%);
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width:991px) {
     .dashboard {
@@ -149,8 +181,19 @@ button.goback:hover {
     .help_center ul li img {
         height: 25px;
     }
-
-
+    .smf-data {
+        display: block;
+    }
+    .smf-data-right { 
+        position: relative;
+        margin-top: 10px;
+    }
+    .a_days button { 
+        width: 25px;
+        height: 25px;
+        margin: 5px 0;
+        font-size: 12px;
+    }
 
 
 
