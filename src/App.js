@@ -1,10 +1,7 @@
 import Header from "./assets/component/header";
 import Dasboard from "./assets/component/pages/dasboard";
 import { Routes, Route } from "react-router-dom"
-
-function name(params) {
-  
-}
+import AntiScamAi from "./assets/component/pages/antiScamAi"
 
 
 function App() {
@@ -13,6 +10,7 @@ function App() {
     <Header />
     <Routes> 
       <Route path="/" element={ <Dasboard/> } /> 
+      <Route path="/antiscamai" element={ <AntiScamAi/> } /> 
     </Routes>
     </>
   );

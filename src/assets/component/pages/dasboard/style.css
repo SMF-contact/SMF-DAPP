@@ -12,6 +12,7 @@
     padding-left: 10px;
 }
 .dlist li {
+    display: flex;
     line-height: 24px;
 }
 .dlist li span:first-child {
@@ -36,15 +37,24 @@
     margin-left: 10px;
 }
 .help_center ul li {
-    display: inline-block;
+    display: flex;
     width: 70px;
     height: 70px;
     border: 1px solid #5f56bb;
     margin-right: 10px;
     background: rgba(45, 38, 138, 0.5);
-    box-shadow: inset 0px 0px 7px rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0px 0px 7px rgb(255 255 255 / 25%);
     border-radius: 10px;
     margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.help_center ul li img {
+    height: 30px;
+}
+.help_center ul li:hover {
+    background: #292460;
 }
 button.goback {
     border: none;
@@ -85,7 +95,10 @@ button.goback:hover {
 .contentBlk .btns button.theme-btn:last-child {
     margin-top: 5px;
 }
-
+.help_center ul {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
@@ -125,8 +138,13 @@ button.goback:hover {
     .dlist li span:first-child { 
         min-width: 100px;
     }
-
-
+    .help_center ul li { 
+        width: 50px;
+        height: 50px; 
+    }
+    .help_center ul li img {
+        height: 25px;
+    }
 
 
 

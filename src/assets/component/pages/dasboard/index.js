@@ -5,6 +5,20 @@ import ContentBlk from "../../helper/contentBlk"
 import Backg from "../../../imgs/background.png"
 import { useNavigate } from "react-router-dom";
 import TheButton from "../../helper/button";
+import WhitePaper from "../../../imgs/whitepaper.png";
+import Audits from "../../../imgs/audits.png";
+import Github from "../../../imgs/github.png";
+import Tutorial from "../../../imgs/tutorial.png";
+import FAQ from "../../../imgs/faq.png";
+import Video from "../../../imgs/video.png";
+
+ 
+
+
+function IconBlk({href,img,classes}) {
+    const navigate = useNavigate();
+    return <li className={classes} onClick={() => navigate('/'+href)}><img src={img} alt="" /></li> 
+}
 
 
 function Dashboard() {
@@ -23,7 +37,7 @@ function Dashboard() {
                         <ul className="dlist">
                             <li>
                                 <span>Wallet ID -</span>
-                                <span>0xAE973B22d9764476041043C7d6eFdF20a5E6093F</span>
+                                <span className="text-truncate">0xAE973B22d9764476041043C7d6eFdF20a5E6093F</span>
                             </li>
                             <li>
                                 <span>Balance: </span>
@@ -98,7 +112,12 @@ function Dashboard() {
                         <div className="help_center"> 
                             <h4>Support Center</h4>
                             <ul>
-                                <li></li> 
+                                <IconBlk href="#" img={WhitePaper} classes=""/> 
+                                <IconBlk href="#" img={Audits} classes=""/> 
+                                <IconBlk href="#" img={Github} classes=""/> 
+                                <IconBlk href="#" img={Tutorial} classes=""/> 
+                                <IconBlk href="#" img={FAQ} classes=""/> 
+                                <IconBlk href="#" img={Video} classes=""/>  
                             </ul>
                         </div>
                     </ContentBlk> 

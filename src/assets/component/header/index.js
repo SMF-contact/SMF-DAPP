@@ -28,7 +28,7 @@ function Header() {
                                     <li><TheButton classes={""} href={"#"} content={"Dashboard"}/></li>
                                     <li><TheButton classes={""} href={"#"} content={"SmartDex"}/></li>
                                     <li><TheButton classes={""} href={"#"} content={"SmartStake"}/></li>
-                                    <li><TheButton classes={""} href={"#"} content={"AntiScamAI"}/></li> 
+                                    <li><TheButton classes={""} href={"antiscamai"} content={"AntiScamAI"}/></li> 
                                     <li><TheButton classes={""} href={"#"} content={"Whales AI"}/></li>
                                     <li><TheButton classes={""} href={"#"} content={"TradingBotAI"}/></li>
                                 </ul>
@@ -47,8 +47,8 @@ function Header() {
                     <li><TheButton classes={""} href={"#"} content={"Dashboard"}/></li>
                     <li><TheButton classes={""} href={"#"} content={"SmartDex"}/></li>
                     <li><TheButton classes={""} href={"#"} content={"SmartStake"}/></li>
-                    <li><TheButton classes={""} href={"#"} content={"AntiScamAI"}/></li> 
-                    <li><TheButton classes={""} href={"#"} content={"Whales AI"}/></li>
+                    <li><TheButton classes={""} href={"antiscamai"} content={"AntiScamAI"}/></li> 
+                    <li><TheButton classes={""} href={"#"} content={"WhalesAI"}/></li>
                     <li><TheButton classes={""} href={"#"} content={"TradingBotAI"}/></li>
                     <li><TheButton classes={"cnctWlt"} href={"#"} content={<><img src={CircleLogo} alt="" /> Connect Wallet</>}/></li> 
                 </ul>
