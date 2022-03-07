@@ -64,26 +64,30 @@ function Dashboard() {
                     </ContentBlk> 
                     <ContentBlk classes={"col-lg-6 mb-3"}>
                         <div className="smf-data"> 
-                            <h5><img src={CircleLogo} alt="" /> SMF Data: $0 <small className="badge bg-success">1%</small></h5>
-                            <ul className="dlist">
-                                <li>
-                                    <span>24H VOL:</span>
-                                    <span>$11,958,452</span>
-                                </li>
-                                <li>
-                                    <span>Market Cap: </span>
-                                    <span>$97,054,126</span>
-                                </li>
-                                <li>
-                                    <span>Circulating Supply:</span>
-                                    <span>$97,054,126</span>
-                                </li>
-                                <li>
-                                    <span>Total Supply:</span>
-                                    <span>$97,054,126</span>
-                                </li> 
-                            </ul>
-                            <ChartComponent/>
+                            <div className="smf-data-left"> 
+                                <h5><img src={CircleLogo} alt="" /> SMF Data: $0 <small className="badge bg-success">1%</small></h5>
+                                <ul className="dlist">
+                                    <li>
+                                        <span>24H VOL:</span>
+                                        <span>$11,958,452</span>
+                                    </li>
+                                    <li>
+                                        <span>Market Cap: </span>
+                                        <span>$97,054,126</span>
+                                    </li>
+                                    <li>
+                                        <span>Circulating Supply:</span>
+                                        <span>$97,054,126</span>
+                                    </li>
+                                    <li>
+                                        <span>Total Supply:</span>
+                                        <span>$97,054,126</span>
+                                    </li> 
+                                </ul>
+                            </div>
+                            <div className="smf-data-right">
+                                <ChartComponent/>
+                            </div>
                         </div>
                     </ContentBlk>  
                     <ContentBlk classes={"col-lg-4 col-md-6 mb-3"}>

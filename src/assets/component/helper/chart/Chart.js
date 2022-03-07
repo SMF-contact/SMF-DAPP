@@ -20,7 +20,8 @@ class CandleStickChart extends React.Component {
 			xAccessor(data[data.length - 100])
 		];
 		return (
-			<ChartCanvas height={400}
+			<ChartCanvas 
+					height={200}
 					ratio={ratio}
 					width={width}
 					margin={{ left: 50, right: 50, top: 10, bottom: 30 }}
@@ -32,8 +33,8 @@ class CandleStickChart extends React.Component {
 					xExtents={xExtents}>
 
 				<Chart id={1} yExtents={d => [d.high, d.low]}>
-					<XAxis axisAt="bottom" orient="bottom" ticks={6}/>
-					<YAxis axisAt="left" orient="left" ticks={5} />
+					<XAxis stroke="#fff" tickStroke="#fff" axisAt="bottom" orient="bottom" ticks={6}/>
+					<YAxis stroke="#fff" tickStroke="#fff" axisAt="left" orient="left" ticks={5} />
 					<CandlestickSeries width={timeIntervalBarWidth(utcDay)}/>
 				</Chart>
 			</ChartCanvas>

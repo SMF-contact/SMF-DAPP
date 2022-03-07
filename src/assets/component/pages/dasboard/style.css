@@ -99,8 +99,12 @@ button.goback:hover {
     display: flex;
     flex-wrap: wrap;
 }
-
-
+.smf-data {
+    display: flex;
+}
+.smf-data-right > div > label,.smf-data-right > div > select {
+    display: none;
+}
 
 @media only screen and (max-width:991px) {
     .dashboard {
